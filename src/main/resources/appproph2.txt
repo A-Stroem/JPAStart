@@ -1,0 +1,3 @@
+spring.h2.console.enabled=true
+localhost:8080/h2-console/login-jsp
+jdbc:h2:mem:77b0e2d8-1481-435c-aa92-caf6632e520c
