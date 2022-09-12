@@ -24,6 +24,7 @@ public class StartAndSave implements CommandLineRunner {
         s1.setName("Bob");
         studentRepository.save(s1);
 
+
         Student s2 = new Student();
         s2.setBorn(LocalDate.now().plusDays(3000));
         s2.setName("Pete");
