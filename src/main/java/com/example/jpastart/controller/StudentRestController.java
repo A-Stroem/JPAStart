@@ -4,6 +4,7 @@ package com.example.jpastart.controller;
 import com.example.jpastart.model.Student;
 import com.example.jpastart.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,6 +13,7 @@ import java.time.LocalTime;
 import java.util.List;
 
 @RestController
+@CrossOrigin(value = "*")
 public class StudentRestController {
 
     @Autowired
